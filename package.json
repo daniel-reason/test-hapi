@@ -1,0 +1,29 @@
+{
+  "name": "test-hapi",
+  "version": "0.1.2",
+  "description": "testing Hapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "debug": "node-debug index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-reason/test-hapi.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-reason/test-hapi/issues"
+  },
+  "homepage": "https://github.com/daniel-reason/test-hapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
+}
